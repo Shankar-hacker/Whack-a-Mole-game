@@ -17,9 +17,9 @@ function setGame() {
         tile.addEventListener("click", selectTile);
         document.getElementById("board").appendChild(tile);
     }
-    setInterval(setMole, 1600); //1000ms --> 1s // calling the mole
-    setInterval(setPlant, 1900); //2000ms --> 2s // calling the plant piranha
-    setInterval(setMole2, 1400)
+    setInterval(setMole, 1000); //1000ms --> 1s // calling the mole
+    setInterval(setPlant, 1500); //2000ms --> 2s // calling the plant piranha
+    setInterval(setMole2, 1000)
 }
 
 function getRandomTile() {
